@@ -1,0 +1,169 @@
+<style>
+        .selectedyear {
+            height: 25px;
+            width: 75px;
+            background-color: orange;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .flexmonth {
+            display: flex;
+            flex-direction: row;
+            background-color: gray;
+            flex-wrap: nowrap;
+            justify-content: center;
+            width: 706px;
+            margin-left: 325px;
+            margin-top: 50px;
+        }
+
+        .selectedmonth {
+            height: 25px;
+            width: 80px;
+            background-color: DodgerBlue;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .monthname {
+            height: 25px;
+            width: 80px;
+            background-color: LightGray;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .more {
+            height: 25px;
+            width: 75px;
+            background-color: orange;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .monthfooter {
+            height: 10px;
+            width: 704px;
+            background-color: orange;
+            border: 1px solid gray;
+            margin-left: 325px;
+        }
+
+        .flexday {
+            display: flex;
+            flex-direction: row;
+            background-color: gray;
+            flex-wrap: nowrap;
+            justify-content: center;
+            width: 706px;
+            margin-left: 325px;
+            margin-top: 50px;
+        }
+
+
+
+        .dayname {
+            height: 25px;
+            width: 100px;
+            background-color: orange;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .flexdate {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 706px;
+            margin-left: 325px;
+            margin-right: 75px;
+            flex-wrap: nowrap;
+        }
+
+
+        .daywhite {
+            height: 50px;
+            width: 75px;
+            background-color: white;
+            border: 1px solid gray;
+            align-content: center;
+        }
+
+
+        .date1 {
+            height: 50px;
+            width: 25px;
+            background-color: gray;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .date2 {
+            height: 50px;
+            width: 25px;
+            background-color: lightgray;
+            font-family: "Arial", sans-serif;
+            font-size: 1em;
+            color: #ffffff;
+            border: 1px solid gray;
+            text-align: center;
+        }
+
+        .timebox {
+            border-radius: 15px 15px 15px 15px;
+            background: DodgerBlue;
+            color: white;
+            width: 60px;
+            height: 40px;
+            margin: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .colorbox {
+            display: block;
+            width: 5px;
+            height: 5px;
+        }
+
+        .colorselect {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 706px;
+            margin-left: 325px;
+            margin-right: 75px;
+            flex-wrap: nowrap;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            font-family: verdana;
+        }
+    </style>
